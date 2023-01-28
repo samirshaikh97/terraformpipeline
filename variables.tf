@@ -35,5 +35,9 @@ variable "sg_id" {
   default = "sg-00a39e4c40cbba548"
 }
 
-variable "keyname" {}
-variable "vpc_id" {}
+variable "keyname" {
+  default = "test"
+}
+variable "vpc_id" {
+   default = "vpc-0a8e1603fedf37047"
+}
