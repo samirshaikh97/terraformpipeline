@@ -41,5 +41,5 @@ variable "keyname" {
   default = "test"
 }
 variable "vpc_id" {
-   default = "vpc-0a8e1603fedf37047"
+   default = "vpc-0a5697a37e515074a"
 }
