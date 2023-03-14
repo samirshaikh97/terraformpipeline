@@ -1,5 +1,5 @@
 variable "region" {
-  default = "us-east-1"
+  default = "ap-south-1"
 }
 
 variable "tag" {
@@ -19,14 +19,7 @@ variable "instance_type" {
 }
 
 variable "aws_region" {
-  default = "us-east-1"
-}
-
-variable "aws_access_key" {
-  default = "AKIAYZY6ZNAQG4243ON7"
-}
-variable "aws_secret_key" {
-  default = "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"
+  default = "ap-south-1"
 }
 
 variable "iscreate" {
@@ -38,7 +31,7 @@ variable "sg_id" {
 }
 
 variable "keyname" {
-  default = "test"
+  default = "ss"
 }
 variable "vpc_id" {
    default = "vpc-0a5697a37e515074a"
